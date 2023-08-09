@@ -1,0 +1,135 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kanit&family=Lilita+One&family=Merriweather&family=Prompt:ital,wght@1,300&family=Satisfy&family=Signika+Negative&display=swap');
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* first page  */
+
+.home-first-page {
+
+    width: 100%;
+    
+}
+/* .navbar{
+
+    width: 100%;    
+} */
+
+.navbar-left h1{
+    font-size: 180px;
+    font-weight: bold;
+    font-family: 'Signika Negative', sans-serif;
+}
+.navbar-left p{
+
+    font-size: 50px;
+    font-weight: bold;
+    font-family: serif;
+}
+.navbar-left img{
+width: 300px;
+height: 300px;
+object-fit: contain;
+padding-right: 30px;
+
+}
+
+.navbar-right li a{
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+   
+}
+
+@media only screen and  (min-width:960px) and (max-width:2300px){
+
+    .navbar-left{
+        width: 100%;
+
+    }
+    .navbar-right{
+        width: 100%;
+    }
+}
+
+.navbar-right li a:hover{
+ color: rgb(255,165,0);
+}
+.navbar-right li a:active{
+    color: blue;
+}
+.navbar-right ul{
+    display: flex;
+    gap: 40px;
+    justify-content: end;
+    padding-right: 100px;
+    /* padding-top:100px; */
+}
+.firstpage-down img{
+    /* background-image: url(/images/first-page.jpg) ; */
+   /* background-size: 100% ; */
+   height:30%;
+   width: 100%;
+    
+    text-align: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    /* background-size: 100% auto; */
+    margin-bottom: 100px;
+
+}
+.firstpage-down p{
+    font-size: 150px;
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+    color: rgb(255,165,0);
+    /* position: absolute; */
+    text-align: center;
+    padding-top: 250px;
+    text-shadow: black 1px 0 10px;
+    /* top: 600px;
+    left: 30%; */
+   
+}
+
+
+
+/* second page */
+
+.second-top h1{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Lilita One', cursive;
+    color: orange;
+    text-align: center;
+    /* border-bottom: 5px solid blue; */
+    
+
+}
+
+.second-bottom p{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    margin-bottom: 100px;
+}
+
+
+
+/* third page */
+
+.third-page{
+    height: 900px;
+    margin-bottom: 50px;
+}
+
